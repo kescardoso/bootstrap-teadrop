@@ -1,0 +1,131 @@
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+.alert-container {
+    
+}
+
+.callout-container {
+    height: 100vh;
+    
+    background: url("../images/flowertea2.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(83, 59, 45, 0.5);
+}
+
+.quotes-container {
+    
+}
+
+.features-container {
+    
+}
+
+.top5-container {
+    
+}
+
+.footer-container {
+    
+}
+
+/* Navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgb(236,231,224, 0.25);
+}
+
+.navbar .navbar-toggler {
+    border-color: transparent;
+}
+
+/* Block Dividers */
+
+.block-divider {
+    width: 80px;
+    height: 4px;
+    border: 0;
+}
+
+.block-divider--yellow {
+    background-color: #E4C853;
+}
+
+.block-divider--short {
+    width: 40px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.jumbotron small {
+    font-size: 70%;
+    font-style: italic;
+    color: #CFC1B1;
+}
+
+.jumbotron .lead{
+    margin:24px 0;
+    color: #EFE8DC;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: 800;
+    border-radius: 24px;
+    width: 160px;
+}
+
+.btn--earth {
+    color: #F4ECE1;
+    background-color: #B06448;
+    border: solid 2px #E4C853;
+}
+
+.btn--earth:hover,
+.btn--earth:active,
+.btn--earth:focus,
+.btn--earth:active:focus {
+    color: #F4ECE1;
+    background-color: #8c4f39;
+    border-color: #ddba27;
+}

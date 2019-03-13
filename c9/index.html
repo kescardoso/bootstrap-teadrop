@@ -16,52 +16,54 @@
     <!-- Nav -->
     <div class="container-fluid navalert-container">
       
-          <nav class="navbar navbar-dark navbar-expand-sm">
-          <a href="/" class="navbar-brand">Flower Tea Drop</a>
+      <!-- Alert -->
+        <div class="container-fluid alert-container">
+          <div class="row d-none d-sm-block">
+            <div class="col-12">
+              <div class="site-wide-alert alert alert-warning">
+                <strong>Sale Now On:</strong> get a 12-month subscription for the price of 6! 
+                <a href="#">Click here for details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- /.Alert -->
+      
+      <nav class="navbar navbar-dark navbar-expand-sm">
+      <a href="/" class="navbar-brand">Flower Tea Drop</a>
+      
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mr-auto">
+              <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+              <li class="nav-item mr-2"><a class="nav-link" href="">About</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Flower Teas</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Hawaiian</a>
+                    <a class="dropdown-item" href="#">French</a>
+                    <a class="dropdown-item" href="#">Spanish</a>
+                    <a class="dropdown-item" href="#">Japanese</a>
+                    <a class="dropdown-item" href="#">Chinese</a>
+                </div>
+              </li>
+              <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="">Sign In / Sign Up</a></li>
+          </ul>
+        </div>  
           
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span></button>
-            
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav mr-auto">
-                  <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                  <li class="nav-item mr-2"><a class="nav-link" href="">About</a></li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Flower Teas</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Hawaiian</a>
-                        <a class="dropdown-item" href="#">French</a>
-                        <a class="dropdown-item" href="#">Spanish</a>
-                        <a class="dropdown-item" href="#">Japanese</a>
-                        <a class="dropdown-item" href="#">Chinese</a>
-                    </div>
-                  </li>
-                  <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="">Sign In / Sign Up</a></li>
-              </ul>
-            </div>  
-              
-            <div class="d-none d-md-block">
-              <p class="navbar-text my-auto mr-2"><i>Great flower teas delivered to your door!</i></p>
-              <a href="/login">Sign In / Sign Up</a>
-            </div>  
-        </nav>
+        <div class="d-none d-md-block">
+          <p class="navbar-text my-auto mr-2"><i>Flower teas at your door!</i></p>
+          <a href="/login" class="btn btn--cta btn--lavender btn--nav">Sign In / Sign Up</a>
+        </div>
+        
+      </nav>
       
     </div>
     <!-- /.Nav -->
-    
-    <!-- Alert -->
-    <!--<div class="container alert-container">
-      <div class="row d-none d-sm-block">
-        <div class="col-12">
-          <div class="alert alert-warning">
-            <strong>Sale Now On!</strong> We've got a sale on: get a 12-month subscription for the price of 6! 
-            <a href="#">Click here for details</a>
-          </div>
-        </div>
-      </div>
-    </div>-->
-    <!-- /.Alert -->
         
     <!-- Callout -->
     <div class="container-fluid callout-container">
@@ -70,13 +72,13 @@
       <div class="row">
         <div class="col-12 my-5">
           <section class="callout jumbotron text-center">
-            <h1 class="jumbotron-header">The finest flower teas delivered to your doorstep</h1>
+            <h1 class="jumbotron-header">The finest flower teas at your doorstep</h1>
             <hr class="block-divider block-divider--yellow">
-            <p class="lead">Sign up today to start receiving the world's best flower teas every month 
-            <s class="d-none d-sm-inline">€11.99</s>
+            <p class="lead">Sign up today and start receiving the world's best flower teas<br/>every month for 
+            <s class="d-none d-sm-inline">€11.99</s> 
             <span class="d-inline d-sm-none"><br></span>
-            <strong><mark>First one is free!</mark></strong></p>
-            <p><button class="btn btn-lg btn--cta btn--earth" data-toggle="modal" data-target="#signUpModal">Sign Up!</button></p>
+            <strong><mark> First one is free! </mark></strong></p>
+            <p><button class="btn btn-lg btn--cta btn--lavender" data-toggle="modal" data-target="#signUpModal">Sign Up!</button></p>
             <p class="text-muted"><small>You must be an European resident to sign up to our service</small></p>
           </section>
         </div>
@@ -85,89 +87,95 @@
     <!-- /.Callout -->
     
     <!-- Quotes -->
-    <div class="container quotes-container">
-      <section class="quotes">
-        
-        <div class="row">
-          <div class="col-12 my-5">
-            <h2 class="text-uppercase">Quotes</h2>
-          </div>
-        </div>
-        
-        <div class="row">
-          <div class="col-12 col-md-6">
-            <div class="media">
-              <div class="d-none d-sm-block">   
-                <img src="images/girl-tea.jpg" class="rounded-circle mr-3" height=100 width=100></img>
-              </div>
-                <div class="media-body">
-                <blockquote class="blockquote">
-                  <p>I've been introduced to more than 10 delicious flower teas I never knew about.</p>
-                  <p>- Prudence Courteney</p>
-                </blockquote>
-              </div>
+    <div class="container-wrapper">
+      <div class="container quotes-container content-container">
+        <section class="quotes">
+          
+          <div class="row">
+            <div class="col-12 page-header">
+              <h2 class="text-uppercase">Quotes</h2>
+              <hr class="block-divider block-divider--short block-divider--yellow">
             </div>
           </div>
-        
-          <div class="col-12 col-md-6">
-            <div class="media">
-              <div class="d-none d-sm-block">
-                <img src="images/boy-tea.jpg" class="rounded-circle mr-3" height=100 width=100></img>
-              </div>
-                <div class="media-body">    
-                <blockquote class="blockquote">
-                  <p>My tastebuds have never been this flowery and aromathic!</p>
-                  <p>- Thomas Barrow</p>
-                </blockquote>
-              </div>  
-            </div>  
-          </div> 
           
-        </div>
-        
-      </section>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="media">
+                <div class="d-none d-sm-block">   
+                  <img src="images/girl-tea.jpg" class="rounded-circle mr-3" height=100 width=100 alt="Quote 1 by Prudence Courteney">
+                </div>
+                  <div class="media-body">
+                  <blockquote class="blockquote">
+                    <p>I've been introduced to more than 10 delicious flower teas I never knew about.</p>
+                    <p>~ Prudence Courteney</p>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-12 col-md-6">
+              <div class="media">
+                <div class="d-none d-sm-block">
+                  <img src="images/boy-tea.jpg" class="rounded-circle mr-3" height=100 width=100 alt="Quote 2 by Thomas Barrow">
+                </div>
+                  <div class="media-body">    
+                  <blockquote class="blockquote">
+                    <p>My tastebuds have never been this flowery and aromathic!</p>
+                    <p>~ Thomas Barrow</p>
+                  </blockquote>
+                </div>  
+              </div>  
+            </div> 
+            
+          </div>
+          
+        </section>
+      </div>
     </div>
     <!-- /.Quotes -->
     
     <!-- Features -->
-    <div class="container features-container">
-      <section class="features">
-        
-        <div class="row">
-          <div class="col-12 my-5">
+    <div class="container-wrapper container-wrapper--lavender"> 
+      <div class="container features-container content-container">
+        <section class="features">
+          
+          <div class="row">
+            <div class="col-12 page-header">
               <h2 class="text-uppercase">Features</h2>
-          </div>
-        </div>
-        
-        <div class="row">
-          
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="feature">
-              <h3><i class="fas fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge badge-success">New!</span></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+              <hr class="block-divider block-divider--short block-divider--white"  
             </div>
           </div>
           
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="feature">
-              <h3><i class="fas fa-credit-card d-none d-sm-inline"></i> Feature 2</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+          <div class="row">
+            
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="feature">
+                <h3><i class="fas fa-gift d-none d-sm-block"></i> Feature 1 <span class="badge badge-newy">New!</span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p><a class="btn btn-sm btn--feat btn--ocre" href="">Read More</a></p>
+              </div>
             </div>
-          </div>
-          
-          <div class="col-12 d-md-none d-lg-block col-lg-4">
-            <div class="feature">
-              <h3><i class="fas fa-truck d-none d-sm-inline"></i> Feature 3</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+            
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="feature">
+                <h3><i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p><a class="btn btn-sm btn--feat btn--ocre" href="">Read More</a></p>
+              </div>
             </div>
+            
+            <div class="col-12 d-md-none d-lg-block col-lg-4">
+              <div class="feature">
+                <h3><i class="fas fa-truck d-none d-sm-block"></i> Feature 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p><a class="btn btn-sm btn--feat btn--ocre" href="">Read More</a></p>
+              </div>
+            </div>
+            
           </div>
-          
-        </div>
-      </section>
-    </div>  
+        </section>
+      </div>
+    </div>
     <!-- /.Features -->
         
     <!-- Top 5 Table -->
@@ -210,7 +218,8 @@
                 </tr>
               </tbody>
             </table>
-      
+        
+        </div>
       </section>
     </div>
     <!-- /.Top 5 Table -->
@@ -250,14 +259,7 @@
     
     <!-- Footer -->
     <div class="container footer-container">
-      <section class="footer">
-  
-        <div class="row">
-          <div class="col-12 my-5">
-            <p>Flower Tea Drop  ©2019  Powered by <span class="factorylogo">Tiny Pixels & Big Smiles Factory</span></p>
-          </div>
-        </div>
-      </section>
+      <p>Flower Tea Drop  ©2019  Powered by <span class="factorylogo">Tiny Pixels & Big Smiles Factory</span></p>
     </div>
     <!-- /.Footer -->
     

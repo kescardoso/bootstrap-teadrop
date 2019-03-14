@@ -2,8 +2,44 @@ body {
     font-family: 'Comfortaa', cursive;
 }
 
+
+
+/* Navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(83, 59, 45);
+}
+
+.navbar .navbar-toggler {
+    border-color: transparent;
+}
+
+.navbar .navbar-brand {
+    font-weight: 800;
+}
+
+.navbar .navbar-nav a {
+    font-weight: 800;
+}
+
+
+
+/* Content Containers */
+
 .container-wrapper {
-    padding-top: 45px;
+    padding-top: 40px;
     padding-bottom: 75px;
 }
 
@@ -55,13 +91,14 @@ body {
     background-color: rgba(83, 59, 45, 0.5);
 }
 
-.quotes-container {}
+.content-container {
+    padding-top: 75px;
+    padding-top: 75px;
+}
 
 .blockquote {
     margin-bottom: 40px;
 }
-
-.features-container {}
 
 .features-container .fa, .fas {
     color: #E4C853;
@@ -85,46 +122,27 @@ body {
     line-height: 45px;
 }
 
-.top5-container {}
-
-.footer-container {}
-
-/* Content Containers */
-
-.content-container {
-    padding-top: 75px;
-    padding-top: 75px;
+.footer-container {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #999;
+    font-size: 70%;
+    letter-spacing: 2px;
 }
 
-/* Navbar */
-
-.navalert-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
-    z-index: 1;
-}
-
-.navbar {
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
-    background-color: rgba(83, 59, 45, 0.25);
-}
-
-.navbar .navbar-toggler {
-    border-color: transparent;
-}
-
-.navbar .navbar-brand {
+.kc {
     font-weight: 800;
+    font-size: 65%;
+    color: #666;
 }
 
-.navbar .navbar-nav a {
-    font-weight: 800;
+.kc a {
+    color: #000;
 }
+
+
 
 /* Page Headers */
 
@@ -137,6 +155,8 @@ body {
 .page-header h2 {
     margin-top: 0;
 }
+
+
 
 /* Block Dividers */
 
@@ -160,6 +180,8 @@ body {
     margin-bottom: 32px;
 }
 
+
+
 /* Jumbotron */
 
 .jumbotron {
@@ -181,6 +203,8 @@ body {
     margin:24px 0;
     color: #EFE8DC;
 }
+
+
 
 /* Buttons */
 
@@ -221,7 +245,6 @@ body {
     color: #fff;
     background-color: #e4c853;
     border-color: #e4c853;
-    
 }
 
 .btn--ocre:hover,

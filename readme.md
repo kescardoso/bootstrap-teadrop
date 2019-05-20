@@ -9,9 +9,9 @@ This is a Bootstrap website for a fictitious online businnes that sells tea with
 ## IMAGE CREDITS
 
 All images used on this project are stock free photos from Unsplash.com
-- [flowertea2, by Lisa Hobbs: ](https://unsplash.com/photos/mRaNok_Ld6s)
-- [girl-tea, by Alina Kovalchuck: ](https://unsplash.com/photos/Cd7dYdJKIKk)
-- [boy-tea, by Jacob Rank: ](https://unsplash.com/photos/p7mK3BTrbIE)
+- [flowertea2, by Lisa Hobbs](https://unsplash.com/photos/mRaNok_Ld6s)
+- [girl-tea, by Alina Kovalchuck](https://unsplash.com/photos/Cd7dYdJKIKk)
+- [boy-tea, by Jacob Rank](https://unsplash.com/photos/p7mK3BTrbIE)
 
 Thank you :)
 [Kes Cardoso](www.kescardoso.com)

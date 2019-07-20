@@ -1,6 +1,6 @@
 # TeaDrop Bootstrap Website
 
-[View this website on GitHub Pages](https://kescardoso.github.io/bootstrap-teadrop/)
+[View this website on GitHub Pages](https://kescardoso.github.io/teadrop-project/)
 
 Welcome!
 
